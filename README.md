@@ -17,6 +17,33 @@ Almanya'da yaşayan Türkçe konuşanlar için hazırlanmış, [Hermes Agent](ht
 
 Ortak ilkeler: kişisel veri beceri dosyasına yazılmaz · rakam/kural uydurulmaz, kaynak ve tarih verilir · riskli finansal ürünler (kaldıraç, CFD, borçla yatırım) önerilmez · ajan kullanıcı adına işlem yapmaz, sadece taslak hazırlar.
 
+## 1 dakikada dene
+
+Örnek için `almanca-resmi-yazisma` becerisini seçin. Kurduktan sonra şu isteği gönderin:
+
+> Bir kurumdan randevu istemek için kısa, resmi bir Almanca e-posta taslağı hazırla. Kurum adı, konu ve tarih verilmedi. Bilinmeyenleri köşeli parantezle bırak. Altına Türkçe açıklama ekle.
+
+**Beklenen çıktı biçimi (temsili):**
+
+```text
+Betreff: Bitte um einen Termin zu [Anliegen]
+
+Sehr geehrte Damen und Herren,
+
+ich möchte einen Termin zu [Anliegen] vereinbaren.
+Bitte teilen Sie mir mit, welche Termine verfügbar sind.
+
+Mit freundlichen Grüßen
+[Name]
+
+Ne yazdım: [Anliegen] için randevu istedim.
+Seçtiğim ton: Resmi ve kısa.
+Doldurman gereken yerler: [Anliegen], [Name].
+Göndermeden önce kontrol: Alıcıyı, konuyu ve adı doğrulayın.
+```
+
+Bu örnek gerçek bir kuruma gönderilmedi. Beceri, eksik bilgileri doldurmadan taslak hazırlar. Göndermeden önce metni kontrol edin.
+
 ## Kurulum
 
 **Hermes Agent:** İlgili `skills/<beceri>/SKILL.md` dosyasını Hermes'e (ör. Telegram'dan) gönderip "Bu dosyadaki metinle bu adla bir beceri oluştur" deyin, ya da Hermes'in beceri yönetimi komutlarını kullanın. Becerileri elle `~/.hermes/skills` altına kopyalamak yerine Hermes'in kendi beceri aracını kullanmanız önerilir.
