@@ -25,9 +25,9 @@ Ortak ilkeler: kişisel veri beceri dosyasına yazılmaz · rakam/kural uydurulm
 
 İlk kullanımda her beceri, dosyanın başındaki **KİŞİSELLEŞTİRME** bölümüne göre birkaç kısa soru sorar (hitap, öncelikler, haftalık zaman vb.).
 
-## Katkı
+## Katkı ve geri bildirim
 
-Hata ve öneriler için Issue açabilirsiniz. Kişisel proje olduğu için destek veya yanıt garantisi yoktur.
+Hata bulduysanız veya bir öneriniz varsa [Issue açın](https://github.com/cengizhan01-tech/almanya-turkce-ai-beceriler/issues/new). İlgili becerinin adını, gördüğünüz sonucu ve beklediğiniz sonucu yazın. Kişisel veri, parola veya API anahtarı eklemeyin.
 
 ## Lisans
 
@@ -35,6 +35,10 @@ Hata ve öneriler için Issue açabilirsiniz. Kişisel proje olduğu için deste
 
 ---
 
-## English summary
+## Deutsch
 
-Turkish-language agent skills (for Hermes Agent and other `SKILL.md`-compatible agents) helping Turkish speakers in Germany with legal orientation, personal finance & German taxes, rule-based investment decision support, job search, formal German correspondence, and product research. **Not legal, tax, or financial advice.** Licensed under CC BY 4.0.
+KI-Skills auf Türkisch für Menschen in Deutschland. Sie helfen bei Fragen zu Behördenbriefen, Jobsuche, Finanzen, Kaufentscheidungen und weiteren Alltagsthemen. Die Skills funktionieren mit Hermes Agent und anderen Agenten, die `SKILL.md` unterstützen. **Keine Rechts-, Steuer- oder Finanzberatung.** Lizenz: CC BY 4.0.
+
+## English
+
+Turkish-language AI skills for people in Germany. They help with official letters, job searches, finances, shopping decisions, and other everyday topics. They work with Hermes Agent and other agents that support `SKILL.md`. **Not legal, tax, or financial advice.** Licensed under CC BY 4.0.
