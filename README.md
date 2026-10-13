@@ -52,6 +52,14 @@ Bu örnek gerçek bir kuruma gönderilmedi. Beceri, eksik bilgileri doldurmadan 
 
 İlk kullanımda her beceri, dosyanın başındaki **KİŞİSELLEŞTİRME** bölümüne göre birkaç kısa soru sorar (hitap, öncelikler, haftalık zaman vb.).
 
+## Kurulduğunu nasıl anlarsınız?
+
+1. Hermes Agent kullanıyorsanız `/skills` listesini açın. Beceri adının listede olduğunu kontrol edin. Diğer ajanlarda kendi beceri listesini kullanın.
+2. Beceri adını seçip yukarıdaki [1 dakikalık örnek isteği](#1-dakikada-dene) gönderin.
+3. Yanıtta kısa bir Almanca e-posta taslağı, eksik bilgiler için köşeli parantezler ve Türkçe açıklama arayın.
+
+Listede görünmesi kurulumu doğrular. Örnek yanıt, kullanım biçimini kontrol eder; tek başına kurulumu kanıtlamaz. Sorun sürerse kişisel veri eklemeden [Issue açın](https://github.com/cengizhan01-tech/almanya-turkce-ai-beceriler/issues/new). [Hermes beceri rehberi](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/guides/work-with-skills.md) `/skills` komutunu açıklar.
+
 ## Katkı ve geri bildirim
 
 Hata bulduysanız veya bir öneriniz varsa [Issue açın](https://github.com/cengizhan01-tech/almanya-turkce-ai-beceriler/issues/new). İlgili becerinin adını, gördüğünüz sonucu ve beklediğiniz sonucu yazın. Kişisel veri, parola veya API anahtarı eklemeyin.
